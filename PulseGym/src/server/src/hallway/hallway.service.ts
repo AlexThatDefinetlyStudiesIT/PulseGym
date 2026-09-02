@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { Hallway } from './hallway.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Gym } from 'src/gym/gym.entity';
+import { Gym } from '../gym/gym.entity';
 
 @Injectable()
 export class HallwaysService{

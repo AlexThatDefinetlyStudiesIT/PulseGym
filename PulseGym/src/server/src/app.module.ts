@@ -12,7 +12,7 @@ import { HallwaysModule } from './hallway/hallway.module';
       username: 'postgres',
       password: '1234',
       database: 'gymDB',
-      synchronize:false,
+      synchronize:true,
       logging: 'all',
       entities: ['dist/**/*.entity.js']
     })

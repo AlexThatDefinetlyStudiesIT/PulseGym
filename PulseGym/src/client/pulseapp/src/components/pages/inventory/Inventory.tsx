@@ -35,7 +35,7 @@ export const Inventory = () => {
             return
         }
         // проверка на полноту графа
-        if ((nodesData.length - 1) * nodesData.length !== edgesData.length) {
+        if (nodesData.length * (nodesData.length - 1) !== edgesData.length) {
             console.log("Данный граф не является полным, алгоритм невозможен."); 
             return;
         }
