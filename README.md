@@ -1,4 +1,4 @@
-﻿# PulseGym
+﻿# TSP-NearestGym-Visualiser
 
 > Web application for visualizing and solving the Traveling Salesman Problem using the nearest neighbor algorithm.
 
