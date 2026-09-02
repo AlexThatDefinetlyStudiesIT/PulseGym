@@ -8,7 +8,7 @@ Developed as part of two interconnected course projects:
 
 The application allows building a graph of transitions between gyms, visualizing routes on an interactive graph, calculating the optimal route for visiting all gyms, and managing data (creating, updating and deleting gyms and routes).
 
-*Fig. 1: Application interface with graph visualization and calculated route*
+A GIF demonstrating the application usage is available at: [docs/demo.gif](docs/demo.gif)
 
 ## Table of Contents
 - [Background](#background)
@@ -205,19 +205,19 @@ Click **"Редактирование"** to access the CRUD pages. Use the navig
 ## Screenshots
 
 ![Main screen with graph](docs/main-screen.png)
-*Fig. 2: Main screen with graph visualization*
+*Fig. 1: Main screen with graph visualization*
 
 ![Gyms and routes adding page](docs/add.png)
-*Fig. 3: Interface for adding gyms and routes*
+*Fig. 2: Interface for adding gyms and routes*
 
 ![Gyms and routes deleting page](docs/delete.png)
-*Fig. 4: Interface for deleting gyms and routes*
+*Fig. 3: Interface for deleting gyms and routes*
 
 ![Gyms and routes editing page](docs/edit.png)
-*Fig. 5: Interface for editing gyms and routes*
+*Fig. 4: Interface for editing gyms and routes*
 
 ![Algorithm result](docs/result-example.png)
-*Fig. 6: Example of a calculated route*
+*Fig. 5: Example of a calculated route*
 
 ## API
 
