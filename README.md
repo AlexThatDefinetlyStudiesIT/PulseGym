@@ -8,7 +8,6 @@ Developed as part of two interconnected course projects:
 
 The application allows building a graph of transitions between gyms, visualizing routes on an interactive graph, calculating the optimal route for visiting all gyms, and managing data (creating, updating and deleting gyms and routes).
 
-<img src="https://raw.githubusercontent.com/AlexThatDefinetlyStudiesIT/PulseGym/main/docs/demo.gif" alt="Demo" width="100%" />
 *Fig. 1: Application interface with graph visualization and calculated route*
 
 ## Table of Contents
@@ -53,7 +52,7 @@ To install and run the project, follow these steps.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AlexThatDefinetlyStudiesIT/PulseGym.git
+   git clone https://github.com/AlexThatDefinetlyStudiesIT/TSP-NearestGym-Visualiser.git
    cd PulseGym
    ```
 
