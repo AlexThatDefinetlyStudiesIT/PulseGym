@@ -8,7 +8,7 @@ Developed as part of two interconnected course projects:
 
 The application allows building a graph of transitions between gyms, visualizing routes on an interactive graph, calculating the optimal route for visiting all gyms, and managing data (creating, updating and deleting gyms and routes).
 
-![Demo](https://raw.githubusercontent.com/AlexThatDefinetlyStudiesIT/PulseGym/main/docs/demo.gif)
+![Demo](docs/demo.gif)
 *Fig. 1: Application interface with graph visualization and calculated route*
 
 ## Table of Contents
