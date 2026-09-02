@@ -1,0 +1,138 @@
+.main-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin:0;
+}
+
+.graph-section {
+    
+    border-radius: 5px; 
+    width: 50vw; 
+    height: 50vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    
+}
+
+.graph-container {
+    width: 100%;
+    height: 120%;
+    position: absolute; 
+    top: -50px;
+    bottom: -50px;
+    left: 0;
+}
+
+.graph-view {
+    width: 100%;
+    height: 100%;
+}
+.text-section {
+    padding: 10px;
+    padding-left: 0px;
+    margin: 10px; 
+    border-radius: 5px; 
+    width: 20vw; 
+    height: 50vh; 
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    position: relative; 
+    
+}
+.text-s-tex{
+    font-family: 'Arial Black, sans-serif'
+}
+.title-text {
+    display: block; 
+    margin: left; 
+    text-align: center; 
+    font-family: Arial Black, sans-serif;
+    font-size: 1.2rem;
+    
+}
+.title-text2 {
+    display: block; 
+    margin: left; 
+    text-align: center; 
+    margin-bottom: 10px;
+    font-family: Arial Black, sans-serif;
+    font-size: 1.8rem;
+    
+}
+
+
+.reset-button {
+    position: absolute; 
+    bottom: -15px; 
+    right: 70px; 
+}
+
+
+.additional-content button {
+    margin-bottom: 10px; 
+}
+
+.outer-section {
+    outline: 2px solid #000; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: 40vw;
+    height: 50vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    overflow: hidden;
+}
+
+.additional-section {
+    margin-left: 20px; 
+}
+
+.additional-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.additional-content >label{
+    font-family: Arial Black, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    color:#222222;
+}
+.additional-content > button  {
+    margin-bottom: 10px; 
+    width: calc(100% - 20px); 
+    background-color: #222222; 
+    color: #c33149 !important; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px;
+    cursor: pointer; 
+    font-family: Arial Black, sans-serif;
+}
+
+.additional-content > button:hover {
+    background-color: #222222; 
+}
+.text-section{
+    width: 40%; /* Увеличиваем ширину текстовой секции */
+    margin-right: 20px; /* Отступ справа */
+    padding: 10px; /* Внутренние отступы */
+    margin-left: -10px;
+    margin-top: 50px;
+    
+}
+.console-logger-wrapper {
+    position: fixed;
+    top: 35vw;
+    left: 1vw;
+    width: 30%;
+    z-index: 999; /* Устанавливаем высокий z-index, чтобы он был выше остальных элементов */
+}

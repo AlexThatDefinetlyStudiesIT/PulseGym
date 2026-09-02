@@ -1,0 +1,44 @@
+.pass-form {
+    outline: 3px solid #999999;
+ 
+    border-radius: 5px;
+    width: 50%; /* Задаем ширину формы */
+    margin-right: 20px;
+}
+
+/* Остальные стили остаются без изменений */
+.form-group {
+    width: 100%;
+}
+
+.form-label {
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    width: 100%;
+    font-family: Arial Black, sans-serif;
+    color: #999999;
+}
+
+.input-field {
+    outline: 1px solid #999999;
+    
+}
+.input-field:focus {
+    outline: 2px solid #c33149 !important; /* Задаем цвет свечения */
+    box-shadow: 0 0 5px #c33149;
+}
+
+.submit-btn {
+    background-color: #999999;
+    font-family: Arial Black, sans-serif;
+    color:white;
+    font-size: 0.8rem;
+
+    &:hover {
+        background-color: #c33149;
+    }
+
+
+    
+}

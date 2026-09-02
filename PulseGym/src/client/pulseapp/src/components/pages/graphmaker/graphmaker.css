@@ -1,0 +1,37 @@
+.main-content{
+    padding: 20px;
+}
+.console-logger-wrapper {
+    position: fixed;
+    top: 35vw;
+    left: 1vw;
+    width: 30%;
+    z-index: 999; /* Устанавливаем высокий z-index, чтобы он был выше остальных элементов */
+}
+
+
+.forms-container {
+    width: 80%; /* Ширина контейнера с формами */
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение содержимого */
+    align-items: center; /* Центрирование содержимого */
+}
+
+.forms-wrapper {
+    display: flex; /* Горизонтальное расположение форм */
+    justify-content: space-between; /* Равномерное распределение форм */
+    width: 100%; /* Ширина контейнера с формами */
+    align-items: center;
+}
+
+.form-container {
+    width: 48%; /* Ширина каждой формы (меньше 50%, чтобы учесть отступы) */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.text-container {
+    width: 50%; /* Увеличиваем ширину текстовой секции */
+    margin-right: 20px; /* Отступ справа */
+    padding: 10px; /* Внутренние отступы */
+    font-family: 'Arial Black, sans-serif'
+}

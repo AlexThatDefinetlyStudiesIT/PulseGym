@@ -1,0 +1,26 @@
+/* Add this CSS to your global or component-specific stylesheet */
+.nav-link:hover + div,
+.nav-link:focus + div {
+    display: block; /* Display the dropdown when the link is hovered or focused */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: yellow; /* Change text color to yellow on hover or focus */
+}
+
+.glow {
+    animation: glow 1.5s ease-in-out infinite; /* Add glow animation */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px yellow; /* Start glow with yellow shadow */
+    }
+    50% {
+        box-shadow: 0 0 20px yellow; /* Increase glow intensity */
+    }
+    100% {
+        box-shadow: 0 0 10px yellow; /* Return to initial glow */
+}
+}

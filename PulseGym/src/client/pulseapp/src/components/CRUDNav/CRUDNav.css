@@ -1,0 +1,44 @@
+.nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    
+
+    /* При наведении */
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+
+    /* При нажатии */
+    &:active {
+        color: #c33149;
+    }
+}
+
+
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px; /* Добавляем внутренние отступы */
+    color: initial !important; /* Сбрасываем изменения цвета */
+    background-color: initial !important; /* Сбрасываем изменения фона */
+
+    /* При наведении */
+    &:hover {
+        color: white; /* Устанавливаем цвет при наведении */
+    }
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* отступ снизу */
+    width: 35%;
+}

@@ -1,0 +1,20 @@
+.promo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 13vh;
+    margin-bottom: 1vh;
+  }
+  .promo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .promo-text {
+    margin-left: 20px; /* Отступ слева от изображения */
+    max-width: 30vh; /* Максимальная ширина текста */
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    font-family: 'Arial Black, sans-serif'
+  }
